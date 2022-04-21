@@ -1,10 +1,8 @@
 # created movies list
 movies = ["The Holy Grail", "The Lord of the Rings", "The Life of Brian"]
 
-count = 0
-while count < len(movies):
-    print(movies[count])
-    count += 1
+for movie in movies:
+    print(movie)
 
 # count movies of list with while command
 
